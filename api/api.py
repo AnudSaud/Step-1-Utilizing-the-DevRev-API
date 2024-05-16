@@ -24,8 +24,3 @@ if response.status_code == 200:
 else:
     print("Failed to create work item. Status code:", response.status_code)
     print("Error message:", response.text)
-
-print("Payload:")
-print(json.dumps(payload, indent=4))
-
-
